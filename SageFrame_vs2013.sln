@@ -9,10 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{37BE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B086D515-2DD4-4B2C-AC83-B8AED4B64381}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SageFrame(2)", "SageFrame\", "{660BBDD5-CA4D-4B01-91FB-5F871EEAC0B1}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SageFrame", "SageFrame\", "{660BBDD5-CA4D-4B01-91FB-5F871EEAC0B1}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
-		ProjectReferences = "{6AF77849-4E47-4E74-8944-4BDAD509C0A3}|SageFrame.Common.dll;{6FEFEC25-44C0-499F-AC69-CA530BD34A15}|SFE.GoogleAdUnit.dll;{112F669E-84E6-4124-961B-7EFE7C89852B}|SageFrame.IPAddressToCountryResolver.dll;{E01DB85D-70F0-4A32-AD9D-9D5CA1771D85}|SageFrame.Core.dll;{8773EC29-792D-4EB1-BAB3-5137E34DF82C}|SageFrame.Security.dll;{4F0D17C3-EDF5-4E55-9704-03B5CC2E1265}|SageFrame.BreadCrum.dll;{0548FFEE-28AF-4A67-A41E-4783A38E952C}|SageFrame.Templating.dll;{19EA37AD-EAE6-40E7-8440-F455F65D1BD5}|SageFrame.ModuleManager.dll;{C714C93B-B55D-4842-9D7F-98C7A2272FA4}|SageFrame.Pages.dll;{B9C7C3B9-D1B7-4A2A-9D9A-2B855FCF927E}|SageFrame.MenuManager.dll;{1D3E59E6-F1A1-4244-9D95-20ADBBCD1DF0}|SageFrame.PortalManagement.dll;{FCECD2E4-4446-4734-8791-BE40A5E16198}|SageFrame.Scheduler.dll;{F6873FB1-9171-4747-B1B4-77431B892E16}|DashBoardControl.dll;{CFB32E58-8BE4-4B85-9DC6-77DAB8D3825D}|SageFrame.Dashboard.dll;{5FB3E456-D1CB-4E2A-819C-7DD6C8D917A4}|SageFrame.CDN.dll;{f012ea0b-726c-425c-b8ee-fa8bf03865ef}|SageFrame.Version.dll;{1de834db-644a-495a-86e5-fcd5c5315610}|SageFrame.PaymentGateWay.dll;"
+		ProjectReferences = "{6AF77849-4E47-4E74-8944-4BDAD509C0A3}|SageFrame.Common.dll;{6FEFEC25-44C0-499F-AC69-CA530BD34A15}|SageFrame.GoogleAdUnit.dll;{112F669E-84E6-4124-961B-7EFE7C89852B}|SageFrame.IPAddressToCountryResolver.dll;{E01DB85D-70F0-4A32-AD9D-9D5CA1771D85}|SageFrame.Core.dll;{8773EC29-792D-4EB1-BAB3-5137E34DF82C}|SageFrame.Security.dll;{4F0D17C3-EDF5-4E55-9704-03B5CC2E1265}|SageFrame.BreadCrum.dll;{0548FFEE-28AF-4A67-A41E-4783A38E952C}|SageFrame.Templating.dll;{19EA37AD-EAE6-40E7-8440-F455F65D1BD5}|SageFrame.ModuleManager.dll;{C714C93B-B55D-4842-9D7F-98C7A2272FA4}|SageFrame.Pages.dll;{B9C7C3B9-D1B7-4A2A-9D9A-2B855FCF927E}|SageFrame.MenuManager.dll;{1D3E59E6-F1A1-4244-9D95-20ADBBCD1DF0}|SageFrame.PortalManagement.dll;{FCECD2E4-4446-4734-8791-BE40A5E16198}|SageFrame.Scheduler.dll;{F6873FB1-9171-4747-B1B4-77431B892E16}|SageFrame.SiteAnalytics.dll;{CFB32E58-8BE4-4B85-9DC6-77DAB8D3825D}|SageFrame.Dashboard.dll;{5FB3E456-D1CB-4E2A-819C-7DD6C8D917A4}|SageFrame.CDN.dll;{f012ea0b-726c-425c-b8ee-fa8bf03865ef}|SageFrame.Version.dll;{1de834db-644a-495a-86e5-fcd5c5315610}|SageFrame.PaymentGateWay.dll;{63bd8284-c3c4-4c99-86eb-99319c4cece4}|SageFrame.FileManager.dll;{b6e897ae-a59a-483d-8476-3ccceb62d5a1}|SageFrame.ContactUs.dll;{09da860e-52c9-4371-8255-96acf8f057cd}|SageFrame.ExtractTemplate.dll;{0cee745a-de35-4dcb-a5c5-94d99925cf31}|SageFrame.IpAccess.dll;{d9ffa086-318c-48c6-9dd1-43955382cdef}|SageFrame.Localization.dll;{805eb109-a0d7-417c-adc5-873548c9a14b}|SageFrame.Logo.dll;{30bbd46a-3371-4ed2-95b4-512fe1c54f88}|SageFrame.NewsLetter.dll;{5dbea933-40fa-4360-9bfe-79b6b99de657}|SageFrame.OauthID.dll;{0fc8f7ad-3814-4861-98d9-d518a44503ad}|SageFrame.SageBanner.dll;{f44b7f70-482f-4b58-9e83-506188e56ce7}|SageFrame.SEOExtension.dll;{4ed22f59-ef41-496b-a3bb-db2df8272939}|SageFrame.TaskToDo.dll;{a1a08102-0ab8-427e-996b-db3aacfd5a3c}|SageFrame.Upgrade.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/SageFrame"
 		Debug.AspNetCompiler.PhysicalPath = "SageFrame\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SageFrame\"
@@ -32,7 +32,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SageFrame(2)", "SageFrame\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAdUnit", "GoogleAdUnit\GoogleAdUnit.csproj", "{6FEFEC25-44C0-499F-AC69-CA530BD34A15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.GoogleAdUnit", "SageFrame.GoogleAdUnit\SageFrame.GoogleAdUnit.csproj", "{6FEFEC25-44C0-499F-AC69-CA530BD34A15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.Common", "SageFrame.Common\SageFrame.Common.csproj", "{6AF77849-4E47-4E74-8944-4BDAD509C0A3}"
 EndProject
@@ -64,7 +64,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.SEOExtension", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.Scheduler", "SageFrame.Scheduler\SageFrame.Scheduler.csproj", "{FCECD2E4-4446-4734-8791-BE40A5E16198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashBoardControl", "SageFrame.SiteAnalytics\DashBoardControl.csproj", "{F6873FB1-9171-4747-B1B4-77431B892E16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.SiteAnalytics", "SageFrame.SiteAnalytics\SageFrame.SiteAnalytics.csproj", "{F6873FB1-9171-4747-B1B4-77431B892E16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.IpAccess", "SageFrame.IpAccess\SageFrame.IpAccess.csproj", "{0CEE745A-DE35-4DCB-A5C5-94D99925CF31}"
 EndProject
@@ -87,6 +87,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.Version", "SageFrame.Version\SageFrame.Version.csproj", "{F012EA0B-726C-425C-B8EE-FA8BF03865EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.PaymentGateWay", "SageFrame.PaymentGateWay\SageFrame.PaymentGateWay.csproj", "{1DE834DB-644A-495A-86E5-FCD5C5315610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.TaskToDo", "SageFrame.TaskToDo\SageFrame.TaskToDo.csproj", "{4ED22F59-EF41-496B-A3BB-DB2DF8272939}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -323,6 +325,14 @@ Global
 		{1DE834DB-644A-495A-86E5-FCD5C5315610}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1DE834DB-644A-495A-86E5-FCD5C5315610}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1DE834DB-644A-495A-86E5-FCD5C5315610}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4ED22F59-EF41-496B-A3BB-DB2DF8272939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED22F59-EF41-496B-A3BB-DB2DF8272939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED22F59-EF41-496B-A3BB-DB2DF8272939}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4ED22F59-EF41-496B-A3BB-DB2DF8272939}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4ED22F59-EF41-496B-A3BB-DB2DF8272939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED22F59-EF41-496B-A3BB-DB2DF8272939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED22F59-EF41-496B-A3BB-DB2DF8272939}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4ED22F59-EF41-496B-A3BB-DB2DF8272939}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -344,6 +354,7 @@ Global
 		{805EB109-A0D7-417C-ADC5-873548C9A14B} = {37BE685B-7789-4CFD-9F9C-4633C3A5778E}
 		{F012EA0B-726C-425C-B8EE-FA8BF03865EF} = {37BE685B-7789-4CFD-9F9C-4633C3A5778E}
 		{1DE834DB-644A-495A-86E5-FCD5C5315610} = {37BE685B-7789-4CFD-9F9C-4633C3A5778E}
+		{4ED22F59-EF41-496B-A3BB-DB2DF8272939} = {37BE685B-7789-4CFD-9F9C-4633C3A5778E}
 		{6AF77849-4E47-4E74-8944-4BDAD509C0A3} = {B086D515-2DD4-4B2C-AC83-B8AED4B64381}
 		{112F669E-84E6-4124-961B-7EFE7C89852B} = {B086D515-2DD4-4B2C-AC83-B8AED4B64381}
 		{E01DB85D-70F0-4A32-AD9D-9D5CA1771D85} = {B086D515-2DD4-4B2C-AC83-B8AED4B64381}
